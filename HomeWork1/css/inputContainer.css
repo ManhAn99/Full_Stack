@@ -1,0 +1,11 @@
+.input-main{
+    width: 100%;
+    height: 27px;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.input-container{
+    margin-top: 20px;
+}

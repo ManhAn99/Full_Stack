@@ -1,0 +1,11 @@
+@import url(./inputContainer.css);
+@import url(./taskList.css);
+@import url(./BookList.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Chettan 2', cursive;
+}
