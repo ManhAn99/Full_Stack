@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+    text-align: center;
+    color: #00a8ff;
+    padding-bottom: 20px;
+    font-size: 55px;
+}
+.task-list{
+    width: 60%;
+    margin: auto;
+    display: block;
+    padding-top: 30px;
+}
+.task-list button{
+    width: 100%;
+    height: 27px;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.task-list button:hover{
+    background-color: #65bde9
+}
+.task-list .task-container-child1{
+    display: flex;
+    
+    width: 100%;
+    border-top: 1px solid rgb(187, 187, 187);;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    margin-top: 20px;
+    padding: 5px 0px;
+    
+}
+.task-list .task-container-child1 span{
+    
+    padding-top: 5px 0px;
+    color: gray;
+    margin: 0 12%
+}
+.task-list .task-container-child2{
+    position: relative;
+}
+.task-list .task-container-child2 i{
+    color: red;
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+}
+.task-list .task-container-child2 >div{
+    margin-top: 15px;
+   background-color: rgb(233, 233, 233);
+   display: flex;
+   align-items: center;  
+   min-height: 40px; 
+   width: 100%;
+}
+.task-list .task-container-child2 .task-name{
+    width: 20%;
+    word-wrap: break-word;
+    margin-left: 100px;
+    display: inline-block;
+    
+}
+.task-list .task-container-child2 .task-desc{
+    width: 40%;
+    word-wrap: break-word;
+    margin-left: 100px;
+    display: inline-block;
+    
+}
