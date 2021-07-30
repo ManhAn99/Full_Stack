@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background-color:#bbe6fe;
+}
+header{
+width: 80%;
+display: flex;
+margin: 0 auto;
+padding-top: 60px;
+align-items: center;
+justify-content: center;
+}
+.header-search{
+    width: 80%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+   margin-right: 20px;
+    
+}
+.header-search i{
+   color: #bbe6fe;
+   font-size: 20px;
+   padding: 5px 10px;
+}
+.header-search input{
+  width: 100%;
+    border: none;
+ font-size: 16px;
+    
+}
+input:focus {
+    outline: none !important;
+}
+header button{
+    outline: none;
+    height: 50px;
+    border: none;
+    width: 100px;
+    background-color: #169bf7;
+    color: white;
+    cursor: pointer;
+    transition: 0.6s;
+    
+}
+header button:hover{
+    background-color: #93cbf3;
+}
+p {
+    display: inline-block;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px 50px;
+    display: flex;
+    background-color: red;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin-top: 70px;
+    border-radius: 7px;
+    
+}
+.container .container-image{
+    width: 200px;
+    height: 200px;
+    border-radius: inherit;
+    
+}
+.container .container-image .image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+.container ul{
+    padding-left: 150px;
+    color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.container ul li {
+    list-style: none;
+    color: black;
+    font-size: 18px;
+    color: gray;
+
+    
+
+}
